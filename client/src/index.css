@@ -1,0 +1,97 @@
+:root {
+  --background-color: #6c63ff;
+  --footer-color: #333c44;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  background-color: var(--background-color);
+  margin: 0px;
+}
+
+.navbar a {
+  color: white;
+}
+
+.site-main {
+  margin-top: 120px;
+}
+
+.site-main .intro-section h1 span {
+  display: block;
+}
+
+.site-main section {
+  margin-bottom: 50px;
+}
+
+.site-main section.how-we-do-it .row {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: var(--footer-color);
+  padding: 4.5rem 0;
+  color: white;
+}
+
+footer h3 span {
+  display: block;
+}
+
+footer ul a {
+  display: block;
+  color: white;
+}
+
+.sidebar {
+  position: fixed;
+  top: 72px;
+  left: 0px;
+  width: 200px;
+  background-color: #4742FF;
+  height: 100%;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 10px;
+}
+
+.sidebar a:hover {
+  background-color: var(--background-color);
+  color: white;
+  cursor: pointer;
+}
+
+.content {
+  margin-left: 200px;
+}
+
+.profile-pic {
+  width: 80%;
+  height: 80%;
+}
+
+.credit-profile-container {
+  width: 100%;
+}
+
+.accounts-table tr {
+  font-size: 0.8rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
